@@ -17,7 +17,7 @@ void main() {
     buf_init();
     inode_init();
     file_init();
-    disk_init();
+    virtio_disk_init();
     user_init();
     __sync_synchronize();
     schedule();

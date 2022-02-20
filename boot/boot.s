@@ -1,7 +1,7 @@
 # boot/boot.s
 
 .section .init, "ax"
-.global _start
+.globl _start
 
 _start:
     # set up stack
