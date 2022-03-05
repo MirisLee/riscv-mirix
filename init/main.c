@@ -14,8 +14,8 @@ void main() {
     proc_init();
     trap_init();
     plic_init();
-    buf_init();
-    inode_init();
+    b_init();
+    i_init();
     file_init();
     virtio_disk_init();
     user_init();
